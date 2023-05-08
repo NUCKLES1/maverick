@@ -104,6 +104,7 @@ cursor: pointer;
 }
 
 .get{
+  cursor: pointer;
   width: 8rem;
   height: 3rem;
   background-color: #007aff;
@@ -118,7 +119,7 @@ cursor: pointer;
 
 .get:hover {
  background-color: #046ee0;
- width: 7.8rem;
+ width: 7.9rem;
 }
  
 .block1 {
@@ -150,9 +151,12 @@ cursor: pointer;
 }
 
 .recomend{
+  border-top: 1px solid;
+  border-color: rgb(226, 225, 225);
   display: flex;
   width: 90%;
-  margin-top: 6rem;
+  margin-top: 1rem;
+  padding-top: 2rem;
 }
 
 .recomend-block1{
@@ -172,6 +176,7 @@ cursor: pointer;
 }
 
 .press{
+  cursor: pointer;
   width: 12rem;
   height: 3rem;
   background-color: #007aff;
@@ -186,7 +191,7 @@ cursor: pointer;
 
 .press:hover {
   background-color: #046ee0;
-  width: 11.8rem;
+  width: 11.9rem;
 }
 
 .recomend-block2{
@@ -201,7 +206,9 @@ cursor: pointer;
   display: block;
   width: 90%;
   height: 22rem;
-  border: 1px solid;
+  border-top: 1px solid;
+  border-color: rgb(226, 225, 225);
+  padding-top: 2rem;
 }
 .recomend-block4{
   margin-top: 3rem;
@@ -218,7 +225,7 @@ cursor: pointer;
 }
 
 .courses{
-
+  cursor: pointer;
   display: block;
   width: 31%;
 }
@@ -252,7 +259,7 @@ cursor: pointer;
 
 .case{
   border-left: 1px solid;
-  border-color: gray;
+  border-color: rgb(226, 225, 225);
   height: 15rem;
   width: 35%;
 }
