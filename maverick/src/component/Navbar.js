@@ -6,7 +6,8 @@ const Navbar = () => {
     <div className="container">
       <div className="navBar">
         <div className="logo">
-          <h2>Maverick</h2>
+          <h2><img className="App-logo" src="verified.png" alt="" /> Maverick</h2>
+          <img className="menu" src="menu.png" alt="" />
         </div>
         <div className="naviBar">
           <div className="form">

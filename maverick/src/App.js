@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import React from "react";
 import "./App.css";
 import Navbar from "./component/Navbar";
 
@@ -73,27 +73,47 @@ function App() {
         </div>
         <div className="recomend-block3">
         <h2>Discover Roadmap</h2>
-        <div className="all-buttons">
+        <div className="all">
+          <div className="flexy">
+          <button>Html 5</button>
           <button>User Interface Design</button>
+          </div>
+          <div className="flexy">
+          <button>Tailwind Css</button>
+          <button>Fanilla JavaScript</button>
+          </div>
+          <div className="flexy">
+          <button>User Interface Design</button>
+          <button>User Interface Design</button>
+          </div>
+          <div className="flexy">
           <button>Digital Marketing</button>
           <button>Data Analysis</button>
+          </div>
+          <div className="flexy">
           <button>Data Science</button>
           <button>Software Engineering</button>
+          </div>
         </div>
+        </div>
+        <div className="recomend-block5">
+          <h2>Acquire Certificate <img src="medal.png" alt="" /></h2>
+          <div className="vid-section">
+            <div className="vid-holder">
+            <img src="" alt="" />
+            </div>   
+            <p>Certificate will be given at the end of your trainning based on your performance and also
+             get an internship offer of your choosing, to help boost your 
+             experience and give you a higher advantage towards getting a job.
+             </p>
+
+             <span>Learn More</span>
+
+             
+          </div>
         </div>
 
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      
       </header>
     </div>
   );

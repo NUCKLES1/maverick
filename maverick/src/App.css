@@ -1,20 +1,19 @@
 .App {
- width: 100%;
+  width: 100%;
 }
 
 .App-logo {
-  height: 40vmin;
   pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo infinite 15s linear;
   }
 }
 
 .App-header {
-  background-color: wheat;
+  background-color: #ffffff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -27,36 +26,43 @@
   color: #61dafb;
 }
 
-.container{
+.container {
   width: 100%;
   display: flex;
 }
 
-.navBar{
+.navBar {
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
 
-.naviBar{
+.naviBar {
   justify-content: space-between;
   display: flex;
   width: 60%;
 }
 
-.logo h2{
+.logo h2 {
   font-style: 'OpenSans';
   font-weight: bold;
   margin-left: 5rem;
 }
 
-.navlink{
+.navlink {
   justify-content: space-between;
   width: 65%;
   display: flex;
 }
 
-.navlink p{
+.menu{
+  display: none;
+  width: 3rem;
+  height: 3rem;
+  object-fit: cover;
+}
+
+.navlink p {
   color: rgb(88, 83, 83);
   font-size: 0.9em;
   font-weight: 400;
@@ -69,7 +75,7 @@
   cursor: pointer;
 }
 
-.navlink p:hover{
+.navlink p:hover {
   transition: 0.5s;
   width: 4rem;
   height: 2rem;
@@ -77,7 +83,8 @@
   background-color: #007aff;
   color: whitesmoke;
 }
-.navlink p:active{
+
+.navlink p:active {
   width: 4rem;
   height: 2rem;
   font-size: 0.9em;
@@ -85,16 +92,16 @@
   color: whitesmoke;
 }
 
-.form{
-margin-left: 3rem;
-cursor: pointer;
+.form {
+  margin-left: 3rem;
+  cursor: pointer;
 }
 
 .form :focus {
   outline-color: #2a9df4;
 }
 
-.search{
+.search {
   padding-left: 1rem;
   background-color: whitesmoke;
   height: 2rem;
@@ -103,7 +110,7 @@ cursor: pointer;
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
 }
 
-.get{
+.get {
   cursor: pointer;
   width: 8rem;
   height: 3rem;
@@ -118,18 +125,18 @@ cursor: pointer;
 }
 
 .get:hover {
- background-color: #046ee0;
- width: 7.9rem;
+  background-color: #046ee0;
+  width: 7.9rem;
 }
- 
+
 .block1 {
   display: flex;
   width: 90%;
   height: 30rem;
- justify-content: space-between;
+  justify-content: space-between;
 }
 
-.block1 h3{
+.block1 h3 {
   font-size: 4em;
   width: 50%;
   font-weight: 400;
@@ -137,12 +144,12 @@ cursor: pointer;
   margin-top: 8rem;
 }
 
-.background{
- width: 39rem;
- object-fit: cover;
+.background {
+  width: 39rem;
+  object-fit: cover;
 }
 
-.people{
+.people {
   top: 8rem;
   left: 55%;
   width: 25rem;
@@ -150,7 +157,7 @@ cursor: pointer;
   object-fit: cover;
 }
 
-.recomend{
+.recomend {
   border-top: 1px solid;
   border-color: rgb(226, 225, 225);
   display: flex;
@@ -159,23 +166,25 @@ cursor: pointer;
   padding-top: 2rem;
 }
 
-.recomend-block1{
+.recomend-block1 {
   display: flex;
-  width: 30%;
+  width: 28%;
   height: 19rem;
+  border-right: 1px solid;
+  border-color: rgb(226, 225, 225);
 }
 
-.recomend-block1 h2{
+.recomend-block1 h2 {
   width: 60%;
   font-weight: 400;
   color: black;
 }
 
-.recomend-block1 p{
+.recomend-block1 p {
   color: gray;
 }
 
-.press{
+.press {
   cursor: pointer;
   width: 12rem;
   height: 3rem;
@@ -194,14 +203,15 @@ cursor: pointer;
   width: 11.9rem;
 }
 
-.recomend-block2{
+.recomend-block2 {
   display: flex;
+  margin-left: 2rem;
   justify-content: space-between;
   width: 70%;
   height: 19rem;
 }
 
-.recomend-block3{
+.recomend-block3 {
   margin-top: 3rem;
   display: block;
   width: 90%;
@@ -210,7 +220,13 @@ cursor: pointer;
   border-color: rgb(226, 225, 225);
   padding-top: 2rem;
 }
-.recomend-block4{
+
+.recomend-block5 p {
+  color: gray;
+}
+
+
+.recomend-block4 {
   margin-top: 3rem;
   display: block;
   width: 90%;
@@ -218,19 +234,37 @@ cursor: pointer;
   border: 1px solid;
 }
 
-.recomend-block3 h2{
+.recomend-block5 {
+  margin-top: 5rem;
+  display: block;
+  width: 90%;
+  border-radius: 1rem;
+  height: 25rem;
+  padding-top: 2rem;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+}
+
+.recomend-block3 h2 {
   width: 60%;
   font-weight: 400;
   color: black;
 }
 
-.courses{
+.recomend-block5 h2 {
+  width: 60%;
+  margin-left: 2rem;
+  font-weight: 400;
+  color: black;
+}
+
+
+.courses {
   cursor: pointer;
   display: block;
   width: 31%;
 }
 
-.courses:hover{
+.courses:hover {
   border: 2px solid;
   border-color: #2a9df4;
   border-radius: 1rem;
@@ -238,58 +272,510 @@ cursor: pointer;
 }
 
 
-.courses1{
+.courses1 {
   display: flex;
   width: 100%;
   height: 17rem;
 }
 
-.courses p{
+.courses p {
   color: black;
   width: 90%;
   margin-left: 0.8rem;
 }
 
-.courses img{
+.courses img {
   margin-left: 0.8rem;
   margin-top: 1rem;
   width: 90%;
   border-radius: 0.6rem;
 }
 
-.case{
+.case {
   border-left: 1px solid;
   border-color: rgb(226, 225, 225);
   height: 15rem;
   width: 35%;
 }
 
-.case img{
+.case img {
   margin-top: 1rem;
   margin-left: 2rem;
   object-fit: cover;
 }
 
-.case:hover{
+.case:hover {
   border-left: 2px solid;
   border-color: #2a9df4;
   height: 17.5rem;
   transition: 0.8s;
 }
 
-.case h3{
+.case h3 {
   margin-left: 2rem;
   margin-top: 2rem;
   color: black;
   font-weight: 600;
 }
 
-.case p{
+.case p {
   margin-left: 2rem;
   color: black;
   width: 80%;
 }
 
+.all button {
+  cursor: pointer;
+  background-color: #ffffff;
+  padding-left: 1rem;
+  padding-right: 4rem;
+  height: 3rem;
+  border: 1px solid;
+  border-color: gray;
+  margin-top: 0.7rem;
+  color: gray;
+  border-radius: 3rem;
+  margin-right: 3rem;
+  font-style: 'Open+Sans';
+  font-weight: 500;
+}
+
+.all button:hover {
+  background-color: #2a9df4;
+  color: whitesmoke;
+  transition: 0.5s;
+  border: none;
+}
+
+.flexy{
+  width: 40%;
+  display: flex;
+}
+
+.vid-section {
+  display: flex;
+  width: 90%;
+  height: 19rem;
+}
+
+.vid-section p {
+  width: 40%;
+  margin-left: 3rem;
+}
+
+.vid-section span {
+  color: gray;
+  margin-top: 14rem;
+}
+
+
+
+.vid-holder {
+  width: 50%;
+  border-right: 1px solid;
+  border-color: rgb(226, 225, 225);
+}
+
+
+@media screen and (max-width: 600px) {
+  .App {
+    width: 95%;
+  }
+  
+  .App-logo {
+    pointer-events: none;
+  }
+  
+  .App-header {
+    background-color: #ffffff;
+    min-height: 100vh;
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  .container {
+    width: 100%;
+    display: flex;
+  }
+  
+  .navBar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .menu{
+    display: flex;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-top: 1.2rem;
+    object-fit: cover;
+  }
+  
+  .naviBar {
+    justify-content: space-between;
+    display: none;
+    width: 60%;
+  }
+
+  .logo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .logo h2 {
+    font-style: 'OpenSans';
+    font-weight: bold;
+    margin-left: 2rem;
+  }
+  
+  .navlink {
+    justify-content: space-between;
+    width: 65%;
+    display: flex;
+  }
+  
+  .navlink p {
+    color: rgb(88, 83, 83);
+    font-size: 0.9em;
+    font-weight: 400;
+    font-style: 'opensans';
+    width: 4rem;
+    height: 1.5rem;
+    padding-left: 0.8rem;
+    padding-top: 0.5rem;
+    border-radius: 1rem;
+    cursor: pointer;
+  }
+  
+  .navlink p:hover {
+    transition: 0.5s;
+    width: 4rem;
+    height: 2rem;
+    font-size: 0.9em;
+    background-color: #007aff;
+    color: whitesmoke;
+  }
+  
+  .navlink p:active {
+    width: 4rem;
+    height: 2rem;
+    font-size: 0.9em;
+    background-color: #007aff;
+    color: whitesmoke;
+  }
+  
+  .form {
+    margin-left: 3rem;
+    cursor: pointer;
+  }
+  
+  .form :focus {
+    outline-color: #2a9df4;
+  }
+  
+  .search {
+    padding-left: 1rem;
+    background-color: whitesmoke;
+    height: 2rem;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+  }
+  
+  .get {
+    cursor: pointer;
+    width: 8rem;
+    height: 3rem;
+    background-color: #007aff;
+    border: none;
+    margin-top: 0.7rem;
+    color: whitesmoke;
+    border-radius: 3rem;
+    margin-right: 3rem;
+    font-style: 'Open+Sans';
+    font-weight: bold;
+  }
+  
+  .get:hover {
+    background-color: #046ee0;
+    width: 7.9rem;
+  }
+  
+  .block1 {
+    display: block;
+    width: 95%;
+    height: 30rem;
+    justify-content: space-between;
+  }
+  
+  .block1 h3 {
+    font-size: 4em;
+    width: 100%;
+    font-weight: 400;
+    color: black;
+    margin-top: 3rem;
+    margin-left: 2rem
+  }
+  
+  .background {
+    position: absolute;
+    top: 32rem;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .people {
+    position: absolute;
+    top: 32rem;
+    width: 70%;
+    left: 10%;
+    object-fit: cover;
+  }
+  
+  .recomend {
+    border-top: 3px solid;
+    border-color: rgb(226, 225, 225);
+    display: block;
+    width: 90%;
+    margin-top: 14rem;
+    padding-top: 2rem;
+    margin-left: 2rem;
+  }
+  
+  .recomend-block1 {
+    display: flex;
+    width: 90%;
+    height: 19rem;
+    border-right: 1px solid;
+    border-color: rgb(226, 225, 225);
+  }
+  
+  .recomend-block1 h2 {
+    width: 60%;
+    font-weight: 400;
+    color: black;
+  }
+  
+  .recomend-block1 p {
+    color: gray;
+  }
+  
+  .press {
+    cursor: pointer;
+    width: 12rem;
+    height: 3rem;
+    background-color: #007aff;
+    border: none;
+    margin-top: 0.7rem;
+    color: whitesmoke;
+    border-radius: 3rem;
+    margin-right: 3rem;
+    font-style: 'Open+Sans';
+    font-weight: bold;
+  }
+  
+  .press:hover {
+    background-color: #046ee0;
+    width: 11.9rem;
+  }
+  
+  .recomend-block2 {
+    display: block;
+    margin-left: 0rem;
+    justify-content: space-between;
+    width: 100%;
+    height: 19rem;
+  }
+  
+  .recomend-block3 {
+    margin-top: 45rem;
+    display: block;
+    width: 90%;
+    height: 22rem;
+    margin-left: 2rem;
+    border-top: 4px solid;
+    border-color: rgb(226, 225, 225);
+    padding-top: 2rem;
+  }
+  
+  .recomend-block5 p {
+    color: gray;
+  }
+  
+  
+  .recomend-block4 {
+    margin-top: 3rem;
+    display: block;
+    width: 90%;
+    height: 22rem;
+    border: 1px solid;
+  }
+  
+  .recomend-block5 {
+    margin-top: 4rem;
+    margin-left: 1rem;
+    display: block;
+    width: 90%;
+    border-radius: 1rem;
+    height: 37rem;
+    padding-top: 2rem;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+  }
+  
+  .recomend-block3 h2 {
+    width: 60%;
+    font-weight: 400;
+    color: black;
+  }
+  
+  .recomend-block5 h2 {
+    width: 100%;
+    margin-left: 2rem;
+    font-weight: 400;
+    color: black;
+  }
+  
+  
+  .courses {
+    cursor: pointer;
+    display: block;
+    width: 95%;
+    border: 2px solid;
+    border-color: #2a9df4;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .courses:hover {
+    border: 2px solid;
+    border-color: #2a9df4;
+    border-radius: 1rem;
+    transition: 0.3s;
+  }
+  
+  
+  .courses1 {
+    display: block;
+    width: 100%;
+    height: 17rem;
+  }
+  
+  .courses p {
+    color: black;
+    width: 90%;
+    margin-left: 0.8rem;
+  }
+  
+  .courses img {
+    margin-left: 0.8rem;
+    margin-top: 1rem;
+    width: 90%;
+    border-radius: 0.6rem;
+  }
+  
+  .case {
+    border-radius: 0.8rem;
+    margin-top: 2rem;
+    border-bottom: 0px solid;
+    border-left: 0px;
+    border-color: rgb(226, 225, 225);
+    height: 17rem;
+    width: 100%;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+  }
+  
+  .case img {
+    margin-top: 1rem;
+    margin-left: 2rem;
+    object-fit: cover;
+  }
+  
+  .case:hover {
+    border-left: 4px solid;
+    border-color: #2a9df4;
+    height: 17.5rem;
+    transition: 0.8s;
+  }
+  
+  .case h3 {
+    margin-left: 2rem;
+    margin-top: 2rem;
+    color: black;
+    font-weight: 600;
+  }
+  
+  .case p {
+    margin-left: 2rem;
+    color: black;
+    width: 80%;
+    padding-bottom: 2rem;
+  }
+
+  .all{
+    display: block;
+  }
+
+  .flexy {
+    display: flex;
+    width: 100%;
+  }
+  
+  .all button {
+    cursor: pointer;
+    background-color: #ffffff;
+    padding-left: 1rem;
+    padding-right: 2rem;
+    height: 3rem;
+    border: 1px solid;
+    border-color: #2a9df4;
+    margin-top: 0.7rem;
+    color: gray;
+    border-radius: 3rem;
+    margin-right: 3rem;
+    font-style: 'Open+Sans';
+    font-weight: 500;
+  }
+  
+  .all button:hover {
+    background-color: #2a9df4;
+    color: whitesmoke;
+    transition: 0.5s;
+    border: none;
+  }
+  
+  .vid-section {
+    display: block;
+    width: 90%;
+    height: 19rem;
+  }
+  
+  .vid-section p {
+    width: 95%;
+    margin-left: 2rem;
+  }
+  
+  .vid-section span {
+    color: #2a9df4;
+    margin-top: 15rem;
+    margin-left: 2rem;
+  }
+  
+  .vid-holder {
+    width: 50%;
+    height: 18rem;
+    border-right: 1px solid;
+    border-color: rgb(226, 225, 225);
+  }
+};
 
 
 
@@ -310,12 +796,11 @@ cursor: pointer;
 
 
 
-
-
-@keyframes App-logo-spin {
+@keyframes App-logo {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
