@@ -48,7 +48,7 @@ function App() {
           <h2>Why Maverick?</h2>
           <div className="courses1">
             <div className="case">
-              <img src="" alt="" />
+              <img src="homes.png" alt="" />
               <h3>Learn from home</h3>
               <p>
                 Access all courses from the comfort of your home to enhance
@@ -56,14 +56,14 @@ function App() {
               </p>
               </div>
               <div className="case">
-                <img src="" alt="" />
+                <img src="case.png" alt="" />
                 <h3>Case study</h3>
                 <p>
                  Projects that are built on real work and you can make a portfolio.
                 </p>
               </div>
               <div className="case">
-                <img src="" alt="" />
+                <img src="chat (2).png" alt="" />
                 <h3>Discussion 24/7</h3>
                 <p>
                 We are always there for you if have difficulty learning the course.

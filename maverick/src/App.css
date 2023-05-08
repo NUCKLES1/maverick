@@ -257,6 +257,12 @@ cursor: pointer;
   width: 35%;
 }
 
+.case img{
+  margin-top: 1rem;
+  margin-left: 2rem;
+  object-fit: cover;
+}
+
 .case:hover{
   border-left: 2px solid;
   border-color: #2a9df4;
@@ -266,7 +272,7 @@ cursor: pointer;
 
 .case h3{
   margin-left: 2rem;
-  margin-top: 6rem;
+  margin-top: 2rem;
   color: black;
   font-weight: 600;
 }
