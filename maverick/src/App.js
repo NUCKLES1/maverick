@@ -54,66 +54,62 @@ function App() {
                 Access all courses from the comfort of your home to enhance
                 learning independently.
               </p>
-              </div>
-              <div className="case">
-                <img src="case.png" alt="" />
-                <h3>Case study</h3>
-                <p>
-                 Projects that are built on real work and you can make a portfolio.
-                </p>
-              </div>
-              <div className="case">
-                <img src="chat (2).png" alt="" />
-                <h3>Discussion 24/7</h3>
-                <p>
-                We are always there for you if have difficulty learning the course.
-                </p>
-              </div>
+            </div>
+            <div className="case">
+              <img src="case.png" alt="" />
+              <h3>Case study</h3>
+              <p>
+                Projects that are built on real work and you can make a
+                portfolio.
+              </p>
+            </div>
+            <div className="case">
+              <img src="chat (2).png" alt="" />
+              <h3>Discussion 24/7</h3>
+              <p>
+                We are always there for you if have difficulty learning the
+                course.
+              </p>
+            </div>
           </div>
         </div>
         <div className="recomend-block3">
-        <h2>Discover Roadmap</h2>
-        <div className="all">
-          <div className="flexy">
-          <button>Html 5</button>
-          <button>User Interface Design</button>
+          <h2>Discover Roadmap</h2>
+          <div className="all">
+            <button>Html 5</button>
+            <button>User Interface Design</button>
+
+            <button>Tailwind Css</button>
+            <button>Fanilla JavaScript</button>
+
+            <button>User Interface Design</button>
+            <button>User Interface Design</button>
+
+            <button>Digital Marketing</button>
+            <button>Data Analysis</button>
+
+            <button>Data Science</button>
+            <button>Software Engineering</button>
           </div>
-          <div className="flexy">
-          <button>Tailwind Css</button>
-          <button>Fanilla JavaScript</button>
-          </div>
-          <div className="flexy">
-          <button>User Interface Design</button>
-          <button>User Interface Design</button>
-          </div>
-          <div className="flexy">
-          <button>Digital Marketing</button>
-          <button>Data Analysis</button>
-          </div>
-          <div className="flexy">
-          <button>Data Science</button>
-          <button>Software Engineering</button>
-          </div>
-        </div>
         </div>
         <div className="recomend-block5">
-          <h2>Acquire Certificate <img src="medal.png" alt="" /></h2>
+          <h2>
+            Acquire Certificate <img src="medal.png" alt="" />
+          </h2>
           <div className="vid-section">
             <div className="vid-holder">
-            <img src="" alt="" />
-            </div>   
-            <p>Certificate will be given at the end of your trainning based on your performance and also
-             get an internship offer of your choosing, to help boost your 
-             experience and give you a higher advantage towards getting a job.
-             </p>
+              <img src="" alt="" />
+            </div>
+            <p>
+              Certificate will be given at the end of your trainning based on
+              your performance and also get an internship offer of your
+              choosing, to help boost your experience and give you a higher
+              advantage towards getting a job.
+            </p>
 
-             <span>Learn More</span>
-
-             
+            <span>Learn More</span>
           </div>
         </div>
-
-      
       </header>
     </div>
   );

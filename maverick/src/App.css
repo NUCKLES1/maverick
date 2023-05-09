@@ -235,7 +235,7 @@
 }
 
 .recomend-block5 {
-  margin-top: 5rem;
+  margin-top: 0rem;
   display: block;
   width: 90%;
   border-radius: 1rem;
@@ -513,7 +513,7 @@
   .block1 {
     display: block;
     width: 95%;
-    height: 30rem;
+    height: 32rem;
     justify-content: space-between;
   }
   
@@ -538,6 +538,7 @@
     top: 32rem;
     width: 70%;
     left: 10%;
+
     object-fit: cover;
   }
   
@@ -597,10 +598,10 @@
   }
   
   .recomend-block3 {
-    margin-top: 45rem;
+    margin-top: 40rem;
     display: block;
     width: 90%;
-    height: 22rem;
+    height: 30rem;
     margin-left: 2rem;
     border-top: 4px solid;
     border-color: rgb(226, 225, 225);
