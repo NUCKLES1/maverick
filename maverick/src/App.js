@@ -77,7 +77,7 @@ function App() {
           <h2>Discover Roadmap</h2>
           <div className="all">
             <button>Html 5</button>
-            <button>User Interface Design</button>
+            <button>Next Js</button>
 
             <button>Tailwind Css</button>
             <button>Fanilla JavaScript</button>
