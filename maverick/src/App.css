@@ -150,6 +150,7 @@
   color: black;
   margin-top: 8rem;
 }
+
 .block1 h2 {
   font-size: 3em;
   width: 50%;
@@ -539,6 +540,23 @@
     height: 32rem;
     justify-content: space-between;
   }
+
+  .background1{
+    width: 100%;
+    object-fit: cover;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    border-radius: 10px 10px 10px 10px;
+  }
+
+  .block1 h2 {
+    font-size: 2em;
+    width: 90%;
+    font-weight: 400;
+    color: black;
+    margin-top: 3rem;
+    margin-left: 2rem;
+  }
   
   .block1 h3 {
     font-size: 4em;
@@ -672,7 +690,7 @@
   .courses {
     cursor: pointer;
     display: block;
-    width: 95%;
+    width: 100%;
     border: 2px solid;
     border-color: #2a9df4;
     border-radius: 1rem;
