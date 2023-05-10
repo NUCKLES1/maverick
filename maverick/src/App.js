@@ -36,7 +36,7 @@ function App() {
               <img src="react.jpg" alt="" />
               <p>
                 Learn to code using React,TypeScript,Node js and other
-                programming language.
+                programming languages.
               </p>
               </Link>
             </div>
