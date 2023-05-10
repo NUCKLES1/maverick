@@ -18,7 +18,7 @@ function App() {
             <div>
               <h2>Recommendation courses for you</h2>
               <p>Need help finding the right course?</p>
-              <button className="press">Analysis Personalize</button>
+              <button className="press">Our courses</button>
             </div>
           </div>
           <div className="recomend-block2">
