@@ -16,6 +16,7 @@
   background-color: #ffffff;
   min-height: 100vh;
   display: flex;
+  margin-top: 2rem;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -29,6 +30,7 @@
 .container {
   width: 100%;
   display: flex;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
 }
 
 .navBar {
@@ -68,11 +70,16 @@
   font-weight: 400;
   font-style: 'opensans';
   width: 4rem;
+  text-decoration: none;
   height: 1.5rem;
   padding-left: 0.8rem;
   padding-top: 0.5rem;
   border-radius: 1rem;
   cursor: pointer;
+}
+
+.navlink Link{
+  text-decoration: none;
 }
 
 .navlink p:hover {
@@ -143,10 +150,25 @@
   color: black;
   margin-top: 8rem;
 }
+.block1 h2 {
+  font-size: 3em;
+  width: 50%;
+  font-weight: 400;
+  color: black;
+  margin-top: 8rem;
+  margin-left: 2rem;
+}
 
 .background {
   width: 39rem;
   object-fit: cover;
+}
+.background1 {
+  width: 39rem;
+  object-fit: cover;
+  margin-left: 4rem;
+  margin-top: 2rem;
+  border-radius: 10px 0px 0px 10px;
 }
 
 .people {
@@ -403,6 +425,7 @@
   .container {
     width: 100%;
     display: flex;
+    box-shadow: none;
   }
   
   .navBar {

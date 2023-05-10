@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import Navbar from "./component/Navbar";
+import { Link } from "react-router-dom";
 
 function App() {
   return (
@@ -22,25 +23,31 @@ function App() {
           </div>
           <div className="recomend-block2">
             <div className="courses">
+              <Link to="/Htmlcourse">
               <img src="student.jpg" alt="" />
               <p>
                 Learn to code using Html,Css and Javascript programming
                 language.
               </p>
+              </Link>
             </div>
             <div className="courses">
+            <Link to="/Reactcourse">
               <img src="react.jpg" alt="" />
               <p>
                 Learn to code using React,TypeScript,Node js and other
                 programming language.
               </p>
+              </Link>
             </div>
             <div className="courses">
+              <Link to="/Dataanal">
               <img src="data.jpg" alt="" />
               <p>
                 Learn Data Analysis using the best system by our experienced
                 tutors.
               </p>
+              </Link>
             </div>
           </div>
         </div>
