@@ -146,6 +146,7 @@
 .block1 h3 {
   font-size: 4em;
   width: 50%;
+  height: 30rem;
   font-weight: 400;
   color: black;
   margin-top: 8rem;
@@ -153,7 +154,7 @@
 
 .block1 h2 {
   font-size: 3em;
-  width: 50%;
+  width: 45%;
   font-weight: 400;
   color: black;
   margin-top: 8rem;
@@ -161,11 +162,12 @@
 }
 
 .background {
-  width: 39rem;
+  width: 50%;
   object-fit: cover;
 }
 .background1 {
   width: 39rem;
+  height: 30rem;
   object-fit: cover;
   margin-left: 4rem;
   margin-top: 2rem;
@@ -265,6 +267,7 @@
   height: 25rem;
   padding-top: 2rem;
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+  margin-bottom: 8rem;
 }
 
 .recomend-block3 h2 {
@@ -635,14 +638,25 @@
     margin-left: 0rem;
     justify-content: space-between;
     width: 100%;
-    height: 19rem;
+    height: 62rem;
+
   }
   
-  .recomend-block3 {
-    margin-top: 40rem;
+  .recomend-block4 {
+   padding-bottom: 15rem;
     display: block;
     width: 90%;
     height: 30rem;
+    margin-left: 2rem;
+    border-top: 4px solid;
+    border-color: rgb(226, 225, 225);
+    padding-top: 2rem;
+  }
+  .recomend-block3 {
+
+    display: block;
+    width: 90%;
+    height: 55rem;
     margin-left: 2rem;
     border-top: 4px solid;
     border-color: rgb(226, 225, 225);
@@ -664,13 +678,14 @@
   
   .recomend-block5 {
     margin-top: 4rem;
-    margin-left: 1rem;
+    margin-left: 1.2rem;
     display: block;
-    width: 90%;
+    width: 95%;
     border-radius: 1rem;
     height: 37rem;
     padding-top: 2rem;
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+    margin-bottom: 8rem;
   }
   
   .recomend-block3 h2 {
@@ -680,8 +695,8 @@
   }
   
   .recomend-block5 h2 {
-    width: 100%;
-    margin-left: 2rem;
+    width: 90%;
+    margin-left: 1rem;
     font-weight: 400;
     color: black;
   }
@@ -818,6 +833,30 @@
     border-color: rgb(226, 225, 225);
   }
 };
+
+@media screen and (max-width: 1000px) {
+
+  .block1 h3 {
+    font-size: 4em;
+    width: 50%;
+    height: 30rem;
+    font-weight: 400;
+    color: black;
+    margin-top: 3rem;
+  }
+
+  .background {
+    width: 30rem;
+    object-fit: cover;
+  }
+  .background1 {
+    width: 30rem;
+    object-fit: cover;
+    margin-left: 0rem;
+    margin-top: 2rem;
+    border-radius: 10px 0px 0px 10px;
+  }
+}
 
 
 

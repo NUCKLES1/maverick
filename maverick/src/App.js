@@ -80,7 +80,7 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="recomend-block3">
+        <div className="recomend-block4">
           <h2>Discover Roadmap</h2>
           <div className="all">
             <button>Html 5</button>
