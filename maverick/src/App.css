@@ -32,6 +32,10 @@
   display: flex;
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
 }
+.container-div {
+  width: 100%;
+  display: block;
+}
 
 .navBar {
   width: 100%;
@@ -402,6 +406,80 @@
   border-color: rgb(226, 225, 225);
 }
 
+.content-about {
+  display: block;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.about-field {
+  margin-top: 4rem;
+  margin-left: 6%;
+  padding-left: 2%;
+  width: 85.3%;
+  height: 1.5rem;
+  border-radius: 0.3rem;
+  font-weight: bold;
+  background-color: gray;
+  justify-content: left;
+}
+
+.continue {
+  display: block;
+  width: 80%;
+  justify-content: center;
+  text-align: left;
+}
+
+.continue h1 {
+  color: black;
+  margin-left: 8%;
+  font-style: 'Roboto';
+  font-weight: 900;
+  font-size: 2.5em;
+}
+
+.developer {
+  margin-left: 8%;
+  width: 85.5%;
+  height: 30rem;
+  border-radius: 1rem;
+  object-fit: cover;
+}
+
+.movie {
+  margin-left: 8%;
+  width: 85.5%;
+  height: 35rem;
+  border-radius: 1rem;
+  object-fit: cover;
+}
+
+.continue h2 {
+  margin-top: 6rem;
+  color: black;
+  margin-left: 8%;
+  font-style: 'Roboto';
+  font-weight: 900;
+  font-size: 2em;
+}
+
+.continue p {
+  margin-left: 5.8rem;
+  font-size: 1.3em;
+  font-style: 'Roboto';
+  color: gray;
+  width: 80%;
+  line-height: 2rem;
+}
+
+.bmo {
+  color: #08f26e;
+}
+
 
 @media screen and (max-width: 600px) {
   .App {
@@ -427,7 +505,7 @@
   }
   
   .container {
-    width: 100%;
+    width: 90%;
     display: flex;
     box-shadow: none;
   }
@@ -546,6 +624,7 @@
 
   .background1{
     width: 100%;
+    height: 18rem;
     object-fit: cover;
     margin-left: 1rem;
     margin-top: 2rem;
@@ -831,6 +910,75 @@
     height: 18rem;
     border-right: 1px solid;
     border-color: rgb(226, 225, 225);
+  }
+
+  .about-field {
+    margin-top: 4rem;
+    margin-left: 4%;
+    width: 90%;
+    height: 1.5rem;
+    border-radius: 0.3rem;
+    background-color: gray;
+    justify-content: left;
+  }
+
+  .about-field p {
+    color: black;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+  }
+
+  .continue {
+    display: block;
+    justify-content: center;
+    text-align: left;
+  }
+
+  .continue h1 {
+    color: black;
+    margin-left: 6%;
+    font-style: 'Roboto';
+    font-weight: 900;
+    font-size: 2.5em;
+  }
+
+  .developer {
+    margin-left: 8%;
+    width: 85.5%;
+    height: 30rem;
+    border-radius: 1rem;
+    object-fit: cover;
+  }
+
+  .movie {
+    margin-left: 8%;
+    width: 85.5%;
+    height: 35rem;
+    border-radius: 1rem;
+    object-fit: cover;
+  }
+
+  .continue h2 {
+    margin-top: 6rem;
+    color: black;
+    margin-left: 6%;
+    font-style: 'Roboto';
+    font-weight: 900;
+    font-size: 2em;
+  }
+
+  .continue p {
+    margin-left: 2rem;
+    font-size: 1em;
+    font-style: 'Roboto';
+    color: gray;
+    font-weight: bold;
+    width: 80%;
+    line-height: 2rem;
+  }
+
+  .bmo {
+    color: #08f26e;
   }
 };
 
