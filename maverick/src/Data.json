@@ -1,0 +1,29 @@
+[
+    {
+       "id": 1,
+       "name":"Pro",
+       "price":"#15,000",
+       "image":"food1.jpg",
+       "achieve":"* Duration 6 months",
+       "achieve1":"* Guaranteed Certificate",
+       "achieve2":"* Full tutorial",
+       "achieve3":"* Immense trainig with our foreign tutuors"
+    },
+    {
+       "id": 2,
+       "name":"Premium",
+       "price":"#50,000",
+       "image":"food2.jpg"
+    },
+    {
+       "id": 3,
+       "name":"Platinum",
+       "price":"#100,000",
+       "image":"food3.jpg",
+       "achieve1":"* Guaranteed Certificate",
+       "achieve2":"* Full tutorial",
+       "achieve3":"* Immense trainig with our foreign tutuors",
+       "achieve4":"* Team task training",
+       "achieve5":"* Intership availability"
+    }
+ ]

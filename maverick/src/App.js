@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import Navbar from "./component/Navbar";
 import { Link } from "react-router-dom";
+import Footer from "./component/Footer";
 
 function App() {
   return (
@@ -118,6 +119,7 @@ function App() {
           </div>
         </div>
       </header>
+      <Footer />
     </div>
   );
 }

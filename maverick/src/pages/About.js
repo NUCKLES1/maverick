@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../component/Navbar";
+import Footer from "../component/Footer";
 export const About = () => {
   return (
     <div className="container-div">
@@ -9,7 +10,7 @@ export const About = () => {
           <p>About us</p>
         </div>
         <div className="continue">
-          <h1>Empathy-driven Front-end Developer.</h1>
+          <h1>Maverick</h1>
           <img className="developer" src="code.jpg" alt="" />
           <h2>What exactly is Maverick?</h2>
           <p>
@@ -17,7 +18,7 @@ export const About = () => {
             figuring out how to code together.
           </p>
           <h2>
-            How will freeCodeCamp help me learn to
+            How will Maverick help me learn to
             <span className="bmo"> code?</span>
           </h2>
           <p>
@@ -35,7 +36,7 @@ export const About = () => {
           <h2>How can I support the Maverick code community?</h2>
           <p>
           We are a very donation-efficient charity, and every and any currency you donate will
-           help us provide more than 50 hours of learning to
+           help us provide more than 50 hours of learning to help
             people around the world.
           </p>
           <h2>How long will it take me to finish each of 
@@ -50,11 +51,19 @@ export const About = () => {
           MaverickCode course. You can pursue both concurrently
           . Even though you don’t need a 4-year degree to work
            as a software developer, it still helps a lot.
-
-
+          </p>
+          <h2>Why is Maverick not available for free?</h2>
+          <p>
+          Maverick is simply not free because we only employ
+           top developer which will give their very best as your tutor instead of having 
+           people who will do it for free,and also don,t 
+           want them so feel like they are doing a favour
+            which might make them feel reluctant toward teaching.
+          <br />But currently we are trying to make it free which is why we allow our student pay just 10% of the innitial cost of learning with high and top Developers.
           </p>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

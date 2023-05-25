@@ -1,14 +1,19 @@
 import React from "react";
+import { FaBars, FaTimes } from "react-icons/fa";
+import { useState } from "react"
 import "../App.css";
 import { Link } from "react-router-dom";
 
+
 const Navbar = () => {
+  const [show, setShow] = useState(false);
+  
+
   return (
     <div className="container">
       <div className="navBar">
         <div className="logo">
           <h2><img className="App-logo" src="verified.png" alt="" /> Maverick</h2>
-          <img className="menu" src="menu.png" alt="" />
         </div>
         <div className="naviBar">
           <div className="form">
@@ -21,13 +26,26 @@ const Navbar = () => {
               />
             </form>
           </div>
-          <div className="navlink">
-            <Link to="/"><p>Home</p></Link>          
-            <p>Explore</p>
-            <Link to="/About"><p>About</p></Link>
-            <p>SIgn in</p>
+          <nav className="navli">
+            <Link to="/"><p className="home">Home</p></Link>          
+            <Link></Link><p className="home">Explore</p>
+            <Link to="/About"><p className="home">About</p></Link>
+            <p className="home">SIgn in</p>
             <button className="get">Get Started</button>
-          </div>
+          </nav> 
+          {show ?
+          <nav className="navlink">
+            <Link to="/"><p className="home">Home</p></Link>          
+            <Link></Link><p className="home">Explore</p>
+            <Link to="/About"><p className="home">About</p></Link>
+            <p className="home">SIgn in</p>
+
+            <button className="cancel"><FaTimes className="x" onClick={() => setShow(false)}/></button>
+          </nav> : null}
+          <button className="nav-btn">
+              <FaBars className="FaBars" onClick={() => setShow(true)}/>
+                     
+            </button>
         </div>
       </div>
     </div>

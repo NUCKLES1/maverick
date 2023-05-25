@@ -1,5 +1,7 @@
 import React from 'react'
 import Navbar from '../component/Navbar'
+import Payment from './Payment'
+import Footer from '../component/Footer'
 
 const Dataanal = () => {
   return (
@@ -12,6 +14,8 @@ const Dataanal = () => {
                 tutors.
       </h2>
     </div>
+    <Payment />
+    <Footer />
   </div>
   )
 }
