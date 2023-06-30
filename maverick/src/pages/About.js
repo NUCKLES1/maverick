@@ -11,7 +11,7 @@ export const About = () => {
         </div>
         <div className="continue">
           <h1>Maverick</h1>
-          <img className="developer" src="code.jpg" alt="" />
+          <img className="developer" src="learn.jpg" alt="" />
           <h2>What exactly is Maverick?</h2>
           <p>
             Maverick code courses is a local area of individuals all over the world who are
@@ -26,7 +26,7 @@ export const About = () => {
             - squarely in your browser, code editor, or versatile application.
             You'll also get a verified certifications along the way.
           </p>
-          <img className="movie" src="movies.png" alt="" />
+          <img className="movie" src="just.jpg" alt="" />
           <h2>Can Maverick code courses help me get a job as a software developer?</h2>
           <p>
           Indeed. Consistently, a great many individuals who join the Maverick 

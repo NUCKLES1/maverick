@@ -28,17 +28,15 @@ const Navbar = () => {
           </div>
           <nav className="navli">
             <Link to="/"><p className="home">Home</p></Link>          
-            <Link></Link><p className="home">Explore</p>
             <Link to="/About"><p className="home">About</p></Link>
-            <p className="home">SIgn in</p>
-            <button className="get">Get Started</button>
+            <Link to="/About"><p className="home">Courses</p></Link>
+            <a href="https://flutterwave.com/donate/6hnuefdfqraj"><button className="get">Donate</button></a>
           </nav> 
           {show ?
           <nav className="navlink">
             <Link to="/"><p className="home">Home</p></Link>          
-            <Link></Link><p className="home">Explore</p>
-            <Link to="/About"><p className="home">About</p></Link>
-            <p className="home">SIgn in</p>
+            <Link to="/About"><p className="home">About</p></Link>          
+            <Link to="/Courses"><p className="home">Courses</p></Link>
 
             <button className="cancel"><FaTimes className="x" onClick={() => setShow(false)}/></button>
           </nav> : null}

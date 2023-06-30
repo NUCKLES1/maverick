@@ -19,7 +19,7 @@ function App() {
             <div>
               <h2>Recommendation courses for you</h2>
               <p>Need help finding the right course?</p>
-              <button className="press">Our courses</button>
+              <Link to="Courses"> <button className="press">Our courses</button></Link>
             </div>
           </div>
           <div className="recomend-block2">
@@ -81,24 +81,22 @@ function App() {
             </div>
           </div>
         </div>
+      
         <div className="recomend-block4">
-          <h2>Discover Roadmap</h2>
-          <div className="all">
-            <button>Html 5</button>
-            <button>Next Js</button>
-
-            <button>Tailwind Css</button>
-            <button>Fanilla JavaScript</button>
-
-            <button>User Interface Design</button>
-            <button>User Interface Design</button>
-
-            <button>Digital Marketing</button>
-            <button>Data Analysis</button>
-
-            <button>Data Science</button>
-            <button>Software Engineering</button>
-          </div>
+         <div className="block4-text">
+          <h2>Purchase your awesome lessons and find your tutors </h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+             elit. Lorem habitant a tincidunt cras accumsan integer 
+             suscipit. Libero accumsan eget aliquet.
+             </p>
+             <div>
+              <button className="booking">Book Your Lessons</button>
+              <button className="booking1">Find Your Courses</button>
+             </div>
+         </div>
+         <div className="bigi">
+         <img src="Group 15.png" alt="" />
+         </div>
         </div>
         <div className="recomend-block5">
           <h2>
@@ -106,7 +104,7 @@ function App() {
           </h2>
           <div className="vid-section">
             <div className="vid-holder">
-              <img src="" alt="" />
+              <img src="carti.jpg" alt="" />
             </div>
             <p>
               Certificate will be given at the end of your trainning based on
@@ -115,7 +113,8 @@ function App() {
               advantage towards getting a job.
             </p>
 
-            <span>Learn More</span>
+            
+         <span><Link to="/About">Learn More</Link></span>
           </div>
         </div>
       </header>

@@ -7,14 +7,16 @@ const Footer = () => {
       <div className="lastbox">
         <h1>Reach Out!</h1>
         <div className="layout">
-          <div className="linklayout">
+          <div className="linklayout">  
+          <a href="mailto:coursesmaverick@gmail.com?subject=How%20can%20we%20help%20you!">   
             <button className="link1">
-              <span>danyxcharge@gmail.com</span>
+              <span>coursesmaverick@gmail.com</span>
               <h3>E-mail</h3>
             </button>
+            </a>
             <button className="link1">
-              <span>Nuckles Daan</span>
-              <h3>Linkedin</h3>
+              <span>Maverick</span>
+              <h3>websites</h3>
             </button>
           </div>
         </div>
@@ -24,11 +26,6 @@ const Footer = () => {
           <span>Maverick</span>
         </div>
         <div className="footer-content">
-          <div className="line"></div>
-          <div className="about">
-            <h5>About</h5>
-            <h5>Github</h5>
-          </div>
           <div className="line"></div>
         </div>
         <div className="copyright">

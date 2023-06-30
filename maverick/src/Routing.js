@@ -5,6 +5,7 @@ import Coursehtml from './pages/Coursehtml'
 import Coursereact from './pages/Coursereact'
 import Dataanal from './pages/Dataanal'
 import About from './pages/About'
+import Courses from './pages/Courses'
 
 const Routing = () => {
   return (
@@ -14,6 +15,7 @@ const Routing = () => {
             <Route path="/Htmlcourse" element={<Coursehtml />} />
             <Route path="/Reactcourse" element={<Coursereact />} />
             <Route path="/Dataanal" element={<Dataanal />} />
+            <Route path="Courses" element={<Courses />} />
             <Route path="/About" element={<About />} />
         </Routes>
     </div>

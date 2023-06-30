@@ -37,12 +37,13 @@ const Payment = () => {
                     <h5>{val.achieve4}</h5>
                     <h5>{val.achieve5}</h5>
                     </div>
+                    <a href="https://flutterwave.com/pay/lpcbgdnu32yz">
                     <button
-                      className="add_button"
-                  
+                      className="add_button"                
                     >
                       Add to cart
                     </button>
+                    </a>
                   </div>
                 </div>
               );

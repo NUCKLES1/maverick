@@ -14,7 +14,27 @@ const Dataanal = () => {
                 tutors.
       </h2>
     </div>
-    <Payment />
+    <div className="border"></div> 
+      <div className="listHolder">
+        <div className="dete1">
+        <h1>Platinum</h1>
+          <p className="coloring">15,000</p>
+          <div className="achieve">
+            <h5>* Guaranteed Certificate</h5>
+            <h5>* Full tutorial</h5>
+            <h5>* Immense training with our foreign tutuors</h5>
+            <h5>* Team task training</h5>
+            <h5>* Intership availability</h5>
+            <h5>* Duration 3/6 months</h5>
+          </div>
+          <a href="https://flutterwave.com/pay/ylg8rm7ha4zb">
+            <button className="add_button">Join now</button>
+          </a>
+        </div>
+        <div className="part">
+          <img src="rename.jpg" alt="" />
+        </div>
+      </div>
     <Footer />
   </div>
   )
